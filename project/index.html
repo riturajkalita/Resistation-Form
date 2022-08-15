@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>room resistation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        <h1 class="main-heading">
+                ROOM RESISTATION
+        </h1>
+             <hr>
+        <h2 class="al">
+            ONLY ROOM NO: 09
+        </h2>
+        <p>
+            Required Fileds followed by *
+        </p>
+        <p>
+            Name: *<input type="text" name="name" required placeholder="enter your name">
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+        <fieldset>
+            Male <input type="radio" name="gender" id="">
+            Female <input type="radio" name="gender" id="">
+            Gay <input type="radio" name="gender" id="">
+        </fieldset>
+        </p>
+    </fieldset>
+    <p>
+        Adress: <textarea name="adress" id="" cols="100" rows="5" placeholder="enter your adress"></textarea>
+    </p>
+    <p>
+        Email: *<input type="email" name="email" id="email" required placeholder="enter your email">
+    </p>
+    <p>
+        Phone no: *<input type="number" name="number" id="number" required placeholder="enter your pin">
+    </p>
+    <p>
+        Age* : <input type="number" name="age" id="age" required placeholder="enter your age">
+    </p>
+    <p>
+        DOB* : <input type="date" name="DOB" id="DOB" required placeholder="enter your DOB">
+    </p>
+    <p>
+        Bad habits* :
+        <select name="bad-habits" id="bad-habits">
+            <option value="">--Select bad habits--</option>
+            <option value="">Smoking</option>
+            <option value="">alcoholic</option>
+            <option value="">drugs addict</option>
+        </select>
+    </p>
+    <hr>
+    <h2>Payment Option</h2>
+    <p>
+        Payment type* :
+        <select name="card-type" id="card-type" required>
+            <option value="">--Select card type--</option>
+            <option value="visa">Visa</option>
+            <option value="visa">RuPay</option>
+            <option value="xnx">Master card</option>
+            <option value="xxx">Paytm</option>
+        </select>
+    </p>
+    <p>
+        Card number: *<input type="number" name="card-number" id="card-number" required placeholder="enter your card number">
+    </p>
+    <p>
+        Expiration date: *<input type="date" name="exp-date" id="exp-date" required>
+    </p>
+    <p>
+        CVV: *<input type="password" name="cvv" id="cvv" required placeholder="enter your cvv">
+    </p>
+    <div class="small">
+        <input type="submit" value="Pay Now">
+    </div>
+    </form>
+    </div>
+</body>
+</html>
